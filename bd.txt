@@ -1,0 +1,33 @@
+use ventasDB
+
+var localidad = {descripcion:"Bergenfield"}
+var localidad1 = {descripcion:"Hermitage"}
+var localidad2 = {descripcion:"Aberdeen"}
+
+var postal = {descripcion:"NJ 07621"}
+var postal1 = {descripcion:"TN 37076"}
+var postal2 = {descripcion:"SD 57401"}
+
+var zona = {descripcion:"África"}
+var zona1 = {descripcion:"Asia"}
+var zona2 = {descripcion:"Centroamérica y Caribe"}
+
+var tipo_producto = {descripcion:"Frutas"}
+var tipo_producto1 = {descripcion:"Snacks"}
+var tipo_producto2 = {descripcion:"Verduras"}
+
+var canal_venta = {descripcion:"Offline"}
+var canal_venta1 = {descripcion:"Online"}
+
+var prioridad = {descripcion:"Crítica"}
+var prioridad1 = {descripcion:"Media"}
+var prioridad2 = {descripcion:"Alta"}
+var prioridad3 = {descripcion:"Baja"}
+
+var pais = {descripcion:"Azerbaijan"}
+var pais1 = {descripcion:"Myanmar"}
+var pais2 = {descripcion:"Mali"}
+
+
+
+
