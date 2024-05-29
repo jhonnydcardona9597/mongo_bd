@@ -4,29 +4,59 @@ var localidad = {descripcion:"Bergenfield"}
 var localidad1 = {descripcion:"Hermitage"}
 var localidad2 = {descripcion:"Aberdeen"}
 
+db.localidades.insertMany([localidad,localidad1,localidad2])
+
+db.localidades.find()
+
+
+
 var postal = {descripcion:"NJ 07621"}
 var postal1 = {descripcion:"TN 37076"}
 var postal2 = {descripcion:"SD 57401"}
+
+db.postales.insertMany([postal,postal1,postal2])
+
+db.postales.find()
 
 var zona = {descripcion:"África"}
 var zona1 = {descripcion:"Asia"}
 var zona2 = {descripcion:"Centroamérica y Caribe"}
 
+db.zonas.insertMany([zona,zona1,zona2])
+
+db.zonas.find()
+
 var tipo_producto = {descripcion:"Frutas"}
 var tipo_producto1 = {descripcion:"Snacks"}
 var tipo_producto2 = {descripcion:"Verduras"}
 
+db.tipo_productos.insertMany([tipo_producto,tipo_producto1,tipo_producto2])
+
+db.tipo_productos.find()
+
 var canal_venta = {descripcion:"Offline"}
 var canal_venta1 = {descripcion:"Online"}
+
+db.canal_ventas.insertMany([canal_venta,canal_venta1])
+
+db.canal_ventas.find()
 
 var prioridad = {descripcion:"Crítica"}
 var prioridad1 = {descripcion:"Media"}
 var prioridad2 = {descripcion:"Alta"}
 var prioridad3 = {descripcion:"Baja"}
 
+db.prioridades.insertMany([prioridad,prioridad1,prioridad2,prioridad3])
+
+db.prioridades.find()
+
 var pais = {descripcion:"Azerbaijan"}
 var pais1 = {descripcion:"Myanmar"}
 var pais2 = {descripcion:"Mali"}
+
+db.paises.insertMany([pais,pais1,pais2])
+
+db.paises.find()
 
 
 
